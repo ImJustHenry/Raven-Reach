@@ -1,0 +1,45 @@
+{
+  "call_mode": "preview",
+  "phone_link": "simulated",
+  "iphone": {
+    "adapter": "hci0",
+    "address": ""
+  },
+  "wearer_name": "Demo Wearer",
+  "description": "Brown hair, wearing Raven glasses. Has asthma; inhaler in left jacket pocket.",
+  "callback_number": "",
+  "demo_emergency_number": "+15555550100",
+  "contacts": [
+    {
+      "name": "Test contact A",
+      "number": "+15555550101"
+    },
+    {
+      "name": "Test contact B",
+      "number": "+15555550102"
+    }
+  ],
+  "location": {
+    "address": "Demo Hall, 1 Example Street, Springfield",
+    "lat": 38.627,
+    "lon": -90.1994,
+    "accuracy_m": 30
+  },
+  "ip_location_consent": false,
+  "preview_speak_locally": true,
+  "dwell_ms": 1100,
+  "twilio": {
+    "account_sid": "",
+    "auth_token": "",
+    "from_number": "",
+    "voice": "Polly.Joanna-Neural",
+    "repeats": 2
+  },
+  "app_id": "",
+  "app_key": "",
+  "phone_bridge": {
+    "enabled": true,
+    "port": 8765,
+    "token": ""
+  }
+}

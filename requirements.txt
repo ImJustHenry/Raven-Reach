@@ -1,0 +1,6 @@
+# plus the Raven Framework: pip install -e ../raven-framework
+requests>=2.32
+qrcode==8.2
+zeroconf==0.136.2
+# iPhone incoming-call link (ANCS over BlueZ) — Linux / RavenOS only
+bleak==0.22.3; sys_platform == "linux"
